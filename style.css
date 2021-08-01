@@ -4792,4 +4792,6 @@ body.is-home .header .user-info > button > span {
 h1.header-title {
     color: #fff;
 }
-
+.user-info .dropdown-menu a {
+    color: #333 !important;
+}
