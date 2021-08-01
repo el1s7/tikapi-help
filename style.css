@@ -4785,7 +4785,7 @@ body.is-home .logo.logo_dark{
 body.is-home header a:hover {
     opacity: 1;
 }
-body.is-home header:not(.community-header) a {
+body.is-home header:not(.page-header) a {
     color: #fff !important;
     text-decoration: none !important;
     opacity: .9;
