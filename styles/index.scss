@@ -40,3 +40,46 @@
 @import "search_results";
 @import "notifications";
 @import "dropdowns";
+
+.search.search-full #query {
+    padding: 25px;
+    padding-left: 40px;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 10px transparent;
+    transition: .2s;
+}
+
+.search.search-full #query:focus {
+    outline: none;
+}
+
+.search.search-full #query:focus {
+    border: 1px solid #fff;
+    color: unset;
+}
+
+.search.search-full #query:hover {
+    box-shadow: 0px 5px 10px rgb(0 0 0 / 65%);
+}
+
+.hero {
+    background: linear-gradient(170deg,#713cc7,#1b1550);
+    padding-top: 70px;
+    height: 350px;
+}
+
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+
+
+h1.head-title {
+    color: #fff;
+}
+
+.dropdown-menu {
+    margin-top: 15px;
+}
