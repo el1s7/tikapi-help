@@ -4839,7 +4839,7 @@ li.article-list-item a {
     padding: 15px 0;
     color: $link_color;
 }
-ul.article-list {
+ul.article-list:not(.promoted-articles) {
     list-style: unset;
 }
 .article{
