@@ -4839,6 +4839,9 @@ li.article-list-item a {
     padding: 15px 0;
     color: $link_color;
 }
+ul.article-list {
+    list-style: unset;
+}
 .article{
 padding: 0 40px;
 
