@@ -4846,3 +4846,6 @@ ul.article-list {
 padding: 0 40px;
 
 }
+.article-list-item .icon-star {
+    display: none;
+}
