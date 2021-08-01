@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var DOWN = 40;
   var TAB = 9;
   
-  if(window.location.pathname < 4 || window.location.pathname.match(/\/community\/(topics|posts)\/?$/) || (window.location.pathname.length < 17 && window.location.pathname.substr(0,3) === "/hc")){
+  if(window.location.pathname < 4 || window.location.pathname.match(/\/community\/(topics|posts)\/?$/) || window.location.pathname.match(/\/hc\/[a-z]{2}\-[a-z]{2}\/?(signin\/?|signup\/?|search\/?)?$/)){
     document.body.classList.add("is-home");
   }
   function closest (element, selector) {
