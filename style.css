@@ -1013,7 +1013,6 @@ ul {
 
 /***** Hero component *****/
 .hero {
-  background-image: url($homepage_background_image);
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -2195,7 +2194,6 @@ ul {
 
 /***** Community *****/
 .community-hero {
-  background-image: url($community_background_image);
   margin-bottom: 10px;
 }
 
