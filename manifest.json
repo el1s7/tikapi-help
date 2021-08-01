@@ -215,8 +215,8 @@
         {
           "identifier": "logo_dark",
           "type": "file",
-          "description": "logo_description",
-          "label": "logo_label"
+          "description": "logo_dark_description",
+          "label": "logo_dark_label"
         },
         {
           "identifier": "show_brand_name",
