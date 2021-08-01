@@ -4755,10 +4755,6 @@ html[dir="rtl"] .notification-left-aligned {
 
 }
 
-h1.head-title {
-    color: #fff;
-}
-
 .dropdown-menu {
     margin-top: 15px;
 }
@@ -4772,6 +4768,7 @@ h1.head-title {
     color: #fff;
 }
 
+
 .community, .activity {
     border-top: none;
 }
@@ -4780,6 +4777,18 @@ h1.head-title {
     margin-top: 20px;
 }
 
-main > .container-divider {
-    padding-top: 70px;
+.header-search {
+    position: relative;
+}
+
+h1.header-title {
+    color: #fff;
+}
+header a:hover {
+    opacity: 1;
+}
+header a {
+    color: #fff !important;
+    text-decoration: none !important;
+    opacity: .9;
 }
