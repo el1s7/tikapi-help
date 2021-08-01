@@ -4747,6 +4747,21 @@ html[dir="rtl"] .notification-left-aligned {
     background: $brand_color linear-gradient(170deg, $brand_color, rgba(0,0,0,.6));
     padding-top: 70px;
     height: 350px;
+    position: relative;
+}
+
+.hero:after{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+    background-image: url(https://i.imgur.com/EJ6sNPf.png);
+    background-size: 65px;
+    background-repeat: repeat;
+    filter: alpha(Opacity=4);
+    opacity: 0.04;
 }
 
 body.is-home .header {
