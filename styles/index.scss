@@ -75,11 +75,27 @@
 
 }
 
-
 h1.head-title {
     color: #fff;
 }
 
 .dropdown-menu {
     margin-top: 15px;
+}
+
+.user-nav a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.header .user-info > button > span {
+    color: #fff;
+}
+
+.community, .activity {
+    border-top: none;
+}
+
+.collapsible-sidebar-body {
+    margin-top: 20px;
 }
