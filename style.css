@@ -4739,11 +4739,12 @@ html[dir="rtl"] .notification-left-aligned {
 }
 
 .search.search-full #query:hover {
-    box-shadow: 0px 5px 10px rgb(0 0 0 / 65%);
+    box-shadow: 0px 5px 10px rgba(0,0,0,.65);
 }
 
 .hero {
-    background: linear-gradient(170deg,#713cc7,#1b1550);
+    background-color: $brand_color;
+    background: $brand_color linear-gradient(170deg, $brand_color, rgba(0,0,0,.6));
     padding-top: 70px;
     height: 350px;
 }
@@ -4776,7 +4777,6 @@ body.is-home .header .user-info > button > span {
     margin-top: 15px;
 }
 
-
 .community, .activity {
     border-top: none;
 }
@@ -4794,4 +4794,9 @@ h1.header-title {
 }
 .user-info .dropdown-menu a {
     color: #333 !important;
+}
+
+.community-image{
+    background-size: contain;
+    min-height: 500px;
 }
