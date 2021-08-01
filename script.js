@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var UP = 38;
   var DOWN = 40;
   var TAB = 9;
-
+  
+  if(window.location.pathname.length === 9 && window.location.pathname.substr(0,3) === "/hc"){
+    document.body.classList.add("is-home");
+  }
   function closest (element, selector) {
     if (Element.prototype.closest) {
       return element.closest(selector);
