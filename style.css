@@ -4749,6 +4749,7 @@ html[dir="rtl"] .notification-left-aligned {
 }
 
 .hero:after{
+    content: '';
     position: absolute;
     left: 0;
     right: 0;
@@ -4766,7 +4767,7 @@ body.is-home .header {
     position: absolute;
     left: 0;
     right: 0;
-
+    z-index: 1;
 }
 
 body:not(.is-home) .logo:not(.logo_dark){
@@ -4822,7 +4823,7 @@ h1.header-title {
     color: #333 !important;
 }
 
-.community-image{
+.community-image {
     background-size: contain;
     min-height: 500px;
 }
