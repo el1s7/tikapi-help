@@ -4748,24 +4748,32 @@ html[dir="rtl"] .notification-left-aligned {
     height: 350px;
 }
 
-.header {
+body.is-home .header {
     position: absolute;
     left: 0;
     right: 0;
 
 }
-
-.dropdown-menu {
-    margin-top: 15px;
+body.is-home header a:hover {
+    opacity: 1;
+}
+body.is-home header a {
+    color: #fff !important;
+    text-decoration: none !important;
+    opacity: .9;
 }
 
-.user-nav a {
+body.is-home .user-nav a {
     text-decoration: none;
     color: #fff !important;
 }
 
-.header .user-info > button > span {
+body.is-home .header .user-info > button > span {
     color: #fff;
+}
+
+.dropdown-menu {
+    margin-top: 15px;
 }
 
 
@@ -4784,11 +4792,4 @@ html[dir="rtl"] .notification-left-aligned {
 h1.header-title {
     color: #fff;
 }
-header a:hover {
-    opacity: 1;
-}
-header a {
-    color: #fff !important;
-    text-decoration: none !important;
-    opacity: .9;
-}
+
