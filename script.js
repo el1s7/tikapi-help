@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var DOWN = 40;
   var TAB = 9;
   
-  if(window.location.pathname < 4 || window.location.pathname.match(/\/community\/topics\/?$/) || (window.location.pathname.length === 9 && window.location.pathname.substr(0,3) === "/hc")){
+  if(window.location.pathname < 4 || window.location.pathname.match(/\/community\/(topics|posts)\/?$/) || (window.location.pathname.length === 9 && window.location.pathname.substr(0,3) === "/hc")){
     document.body.classList.add("is-home");
     document.querySelector(".logo img").setAttribute("src","https://tikapi.io/assets/img/ll.png")
   }
