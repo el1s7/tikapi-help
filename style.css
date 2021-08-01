@@ -4768,6 +4768,19 @@ body.is-home .header {
     right: 0;
 
 }
+
+body:not(.is-home) .logo:not(.logo_dark){
+ display: none; 
+}
+
+body.is-home .logo:not(.logo_dark) {
+    display: block;
+}
+
+body.is-home .logo.logo_dark{
+ display: none; 
+}
+
 body.is-home header a:hover {
     opacity: 1;
 }
