@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
   
   if(window.location.pathname < 4 || window.location.pathname.match(/\/community\/(topics|posts)\/?$/) || (window.location.pathname.length === 9 && window.location.pathname.substr(0,3) === "/hc")){
     document.body.classList.add("is-home");
-    document.querySelector(".logo img").setAttribute("src","https://tikapi.io/assets/img/ll.png")
   }
   function closest (element, selector) {
     if (Element.prototype.closest) {
