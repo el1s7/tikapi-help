@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
+  "name": "TikAPI",
   "author": "Zendesk",
-  "version": "2.10.2",
+  "version": "1.0.0",
   "api_version": 2,
   "default_locale": "en-us",
   "settings": [
