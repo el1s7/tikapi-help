@@ -4859,7 +4859,7 @@ padding: 0 40px;
 }
 .article-body ol li {
    counter-increment: item;
-   margin-bottom: 5px;
+   margin-bottom: 15px;
 }
 
 .article-body ol li:before {
@@ -4881,7 +4881,7 @@ padding: 0 40px;
     list-style: none;
 }
 .article-body ul li{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     vertical-align: middle;
 }
 
