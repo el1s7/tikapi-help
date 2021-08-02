@@ -4868,8 +4868,9 @@ padding: 0 40px;
    background: #9ab0c7;
    border-radius: 100%;
    color: white;
-   width: 24px;
-   height: 24px;
+   width: 22px;
+   height: 22px;
+   min-width: 22px;
    display: inline-flex;
    justify-content: center;
    align-items: center;
@@ -4882,8 +4883,6 @@ padding: 0 40px;
 .article-body ul li{
     margin-bottom: 5px;
     vertical-align: middle;
-    align-items: center;
-    display: flex;
 }
 
 .article-body ul li:before {
@@ -4891,13 +4890,12 @@ padding: 0 40px;
    content: '';
    background: #9ab0c7;
    border-radius: 100%;
-   color: white;
-   width: 24px;
-   height: 24px;
-   display: inline-flex;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
+   width: 12px;
+   height: 12px;
+   min-width: 12px;
+   display: inline-block;
+   vertical-align: middle;
+   transform: translateY(-1px);
 }
 
 p.wysiwyg-indent2 {
