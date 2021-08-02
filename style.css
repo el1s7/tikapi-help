@@ -4869,7 +4869,7 @@ padding: 0 40px;
 .article-body ol li:before {
    margin-right: 10px;
    content: counter(item);
-   background: lightblue;
+   background: #9ab0c7;
    border-radius: 100%;
    color: white;
    width: 24px;
@@ -4893,7 +4893,7 @@ padding: 0 40px;
 .article-body ul li:before {
    margin-right: 10px;
    content: '';
-   background: lightblue;
+   background: #9ab0c7;
    border-radius: 100%;
    color: white;
    width: 24px;
