@@ -4967,6 +4967,8 @@ p.wysiwyg-indent2 {
 	padding: 14px 8px 14px 22px;
 	display: block;
 	font-weight: 700;
+	background: #e2ffdd;
+	border-left-color: #52d53a;
 }
 
 .article-body .o-markdown.o-markdown-emphasis[data-type="|"] {
