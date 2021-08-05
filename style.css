@@ -4787,13 +4787,13 @@ body.is-home .logo.logo_dark{
 body.is-home header a:hover {
     opacity: 1;
 }
-body.is-home header:not(.page-header) a {
+body.is-home header:not(.page-header) a:not([role='menuitem']) {
     color: #fff !important;
     text-decoration: none !important;
     opacity: .9;
 }
 
-body.is-home .user-nav a {
+body.is-home .user-nav a:not([role='menuitem']) {
     text-decoration: none;
     color: #fff !important;
 }
